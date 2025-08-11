@@ -9,7 +9,7 @@ section{
 
     /*Comfiguração da página*/
 
-    .cadmediaaluno1{
+    .cadinteiro{
 
         width: 300px;
         margin: 0px auto;
@@ -19,7 +19,7 @@ section{
 
     }
 
-    .cadmediaaluno1 input{
+    .cadinteiro input{
 
             margin: 5px auto;
             width: 100%;
@@ -28,7 +28,7 @@ section{
 
     }
 
-    .cadmediaaluno1 button{
+    .cadinteiro button{
 
             width: 30%;
             margin:  0 10%;
