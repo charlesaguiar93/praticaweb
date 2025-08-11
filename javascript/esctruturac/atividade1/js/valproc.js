@@ -33,7 +33,7 @@ function procFormulario(){
 
                     alert("Sua media foi " + media.toFixed(2) + " Você foi aprovado");
 
-              }else if(media <=7.0){
+              }else if(media < 7.0){
 
                        alert("Sua media foi"+ media.toFixed(2)+ "Você está em recuperação"); 
               
