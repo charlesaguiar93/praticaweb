@@ -31,9 +31,9 @@ function procFormulario(){
               let media=(nota1+nota2+nota3)/3;
               if(media>=7){
 
-                    alert("Sua media foi " + media.toFixed(2) + " Voc foi aprovado");
+                    alert("Sua media foi " + media.toFixed(2) + " Você foi aprovado");
 
-              }else if(media >=5.0){
+              }else if(media <=7.0){
 
                        alert("Sua media foi"+ media.toFixed(2)+ "Você está em recuperação"); 
               
