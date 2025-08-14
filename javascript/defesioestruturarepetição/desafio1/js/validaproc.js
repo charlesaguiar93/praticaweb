@@ -33,7 +33,7 @@ if (resultado != soma){
 
 }while(resultado != soma);
 
-alert("Parabéns! Você acertou a soma: " + soma);
+alert("Parabéns! Você acertou a soma é: " + soma);
 
 }
 
