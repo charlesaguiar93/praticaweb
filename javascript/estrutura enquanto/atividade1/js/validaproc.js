@@ -7,7 +7,7 @@ while (i <= 3) {
     numero = parseInt(prompt("Digite um número: "));
     somatoria = somatoria + numero;
     console.log("O número informado é " + numero);
-   i = i + 1; 
+    i = i + 1; 
     
     }
 
