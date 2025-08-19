@@ -2,7 +2,9 @@ function validaProc(){
 
 let i;
 let num={}
-let valorUsuario = false
+let valorUsuario;
+let posicao = false; 
+
 
 for(i=0; i<10; i++ ){
     num[i] = parseInt(prompt("Digite o "+(i+1)+"º número"));
@@ -11,21 +13,22 @@ for(i=0; i<10; i++ ){
 
 valorUsuario = parseInt(prompt("Digite um valor inteiro:"));
 
-
 for(i=0; i<10; i++){
-if(valorUsuario === num[i]  ){
-    
-     console.log("O valor esta na posição ["+(i + 1)+ "] do vetor");
-    
+
+    if (valorUsuario  === num[i]){
+        posicao = true;
+    console.log("O valor esta na posição [" +(i+1)+ "] do vetor");
     }
     
-    else if(valorUsuario == false){
-                                                                
-            console.log("O valor não se encontra no vetor!");
-    }    
-   
-}   
-return false;
+
+}
+
+if(posicao === false){
+
+    console.log("O valor não esta na posição do vetor");
+}
+
+return false
 
 
 }
