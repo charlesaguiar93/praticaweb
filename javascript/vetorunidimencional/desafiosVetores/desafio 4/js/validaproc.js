@@ -13,7 +13,7 @@ for(i=0; i<4; i++){
 
 for(i=3; i>=0; i--){
 
-     console.log("Números em ordem inversa "+valorNum[i]);
+     console.log("Números em ordem inversa ["+valorNum[i]+"]");
 
 }
 
