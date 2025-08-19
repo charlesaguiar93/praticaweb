@@ -1,0 +1,13 @@
+function validaProc(){
+
+let i;
+
+
+
+
+
+
+
+
+
+}
