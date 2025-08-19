@@ -9,7 +9,7 @@ section{
 
     /*Comfiguração da página*/
 
-    .cadinteiro{
+    .num1Input{
 
         width: 300px;
         margin: 0px auto;
@@ -19,7 +19,7 @@ section{
 
     }
 
-    .cadinteiro input{
+    .num1Input input{
 
             margin: 5px auto;
             width: 100%;
@@ -28,7 +28,7 @@ section{
 
     }
 
-    .cadinteiro button{
+    .num1Input button{
 
             width: 30%;
             margin:  0 10%;

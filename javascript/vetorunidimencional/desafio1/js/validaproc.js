@@ -6,13 +6,39 @@ let notas={}
 
 for(i=0; i<3; i++){
     notas[i]=parseFloat(prompt("Digite a nota do aluno "+(i+1)+":"));
-    if(notas[i]>=7.5){
-        console.log("Aluno "+(i+1)+" - Nota: "+notas[i]);
+    //if(notas[i]>=7.5){
+        //console.log("Aluno "+(i+1)+" - Nota: "+notas[i]);
     }
 
-}
+for(i=0; i<3; i++){
+    
+    if(notas[i]>=7.5){
+        console.log("Aluno "+(i+1)+" - Nota: "+notas[i]+" - Aprovado");
+    }   
+
+
 
 }
+return false
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*faça um algoritimo para ler as notas obtidas pelos alunos, 

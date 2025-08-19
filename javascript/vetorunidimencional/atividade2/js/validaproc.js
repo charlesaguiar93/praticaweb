@@ -1,23 +1,33 @@
 function validaProc(){
 
 
-let soma=0;
+let quantidade=0;
 
 let i;
 let notas={}
 
-for(i=1; i<=10; i++){
-    notas[i] = parseFloat(document.getElementById("nota"+i));
+for (i=0; i< 3; i++){
+    notas[i] = parseFloat(prompt("Digite a nota do aluno " + (i + 1) + ":"));
+    
+}
 
-    if(notas[i] >=7.5){
-        
-        soma = soma + notas[i];
-        console.log("Aluno "+i+" - Aprovado com nota: "+notas[i]);
-        console.log("Aluno "+(i+1)+" - Nota: "+notas[i]);
-        
-
+for (i=0; i< 3; i++){
+    
+    
+    if (notas[i] >= 7.5) {
+        quantidade++;
+        console.log("Nota do aluno superior a 7,5 posição " + (i + 1) + ": " + notas[i]);
+       
+    
     }
+       
+
+}
+console.log("Quantidade de notas iguais ou superior a 7,5: " + quantidade);
+return false;
 
 }
 
-}
+/*faça um programa para ler as notas obtidas pelos alunos, e depois exibir um relatório
+das notas iguais ou superior a 7,5 e também 
+no final a quantidade de notas iguais ou superior a 7,5*/

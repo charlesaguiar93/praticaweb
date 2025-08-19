@@ -1,7 +1,7 @@
 function validaproc(){
 
     const num1Input = document.getElementById("num1");
-    if (num1Input.value === "") 
+    if (num1Input.value == "") 
     {
         alert("Por favor, informe o primeiro número.");
         num1Input.focus();
