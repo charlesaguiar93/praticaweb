@@ -2,10 +2,17 @@ function validaProc(){
 
 
 
-let matriz={};
-let linhas = 5;
-let colunas = 5;
-let multiplica = 0;
+
+
+let matriz=[];
+let linhas = 2;
+let colunas = 2;
+
+let matriz2=[]
+let linha = 2;
+let coluna = 2; 
+
+
 for(i=0; i < linhas; i++){
 
     matriz[i]=[]
@@ -15,16 +22,20 @@ for(i=0; i < linhas; i++){
           console.log("A linha:[" +i+ "] multiplica com a coluna:[" +c+"] resultado é:"+matriz[i][c]);  
           document.write(+matriz[i][c]+"&nbsp&nbsp");
         
-        matriz[i][c] = matriz[i][c] * matriz[i][c];
+        
     
     }
 document.write("<br>");  
 }
 
-for(i=0; i < linhas; i++){
 
-    for(c=0; c < colunas; c++){
 
+for(i=0; i < linha; i++){
+
+    matriz2[i]=[]
+    for(c=0; c < coluna; c++){
+        matriz[i][c] = matriz[i][c] * matriz[i][c];
+        
         console.log("A linha:[" +i+ "] multiplica com a coluna:[" +c+"] resultado é:"+matriz[i][c]);  
         document.write(+matriz[i][c]+"&nbsp&nbsp");
     }
