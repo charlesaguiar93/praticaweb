@@ -19,7 +19,7 @@ for(i=0; i < linhaAndar; i++){
 
 
 }
-media = soma / 24
+media = soma / 4
         console.log("A média de renda dos apartamentos é:"+media);
         console.log("O total de da renda dos apartamentos são:"+soma);
 
