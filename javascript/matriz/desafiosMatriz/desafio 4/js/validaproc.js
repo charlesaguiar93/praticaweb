@@ -2,8 +2,8 @@ function validaProc(){
 
 
 let matriz=[];
-let linhas = 2;
-let colunas = 2;
+let linhas = 4;
+let colunas = 5;
 let soma =0; 
 
 for(i=0; i < linhas; i++){
