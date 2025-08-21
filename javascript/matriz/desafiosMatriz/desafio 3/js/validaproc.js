@@ -5,12 +5,12 @@ function validaProc(){
 
 
 let matriz=[];
-let linhas = 2;
-let colunas = 2;
+let linhas = 5;
+let colunas = 5;
 
 let matriz2=[]
-let linha = 2;
-let coluna = 2; 
+let linha = 5;
+let coluna = 5; 
 
 
 for(i=0; i < linhas; i++){
